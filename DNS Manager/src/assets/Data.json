@@ -1,0 +1,148 @@
+[
+    {
+        "name": "example.com",
+        "records": [
+            {
+                "type": "A",
+                "value": "192.0.2.1"
+            },
+            {
+                "type": "MX",
+                "value": "mail.example.com"
+            },
+            {
+                "type": "TXT",
+                "value": "v=spf1 mx -all"
+            }
+        ]
+    },
+    {
+        "name": "test.com",
+        "records": [
+            {
+                "type": "A",
+                "value": "198.51.100.5"
+            },
+            {
+                "type": "CNAME",
+                "value": "www.test.com"
+            }
+        ]
+    },
+    {
+        "name": "example.org",
+        "records": [
+            {
+                "type": "A",
+                "value": "203.0.113.2"
+            },
+            {
+                "type": "AAAA",
+                "value": "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+            },
+            {
+                "type": "TXT",
+                "value": "v=spf1 -all"
+            }
+        ]
+    },
+    {
+        "name": "domain.net",
+        "records": [
+            {
+                "type": "A",
+                "value": "198.51.100.7"
+            },
+            {
+                "type": "CNAME",
+                "value": "www.domain.net"
+            },
+            {
+                "type": "MX",
+                "value": "mail.domain.net"
+            }
+        ]
+    },
+    {
+        "name": "example.info",
+        "records": [
+            {
+                "type": "A",
+                "value": "192.0.2.10"
+            },
+            {
+                "type": "AAAA",
+                "value": "2001:0db8:85a3:0000:0000:8a2e:0370:7336"
+            }
+        ]
+    },
+    {
+        "name": "test.org",
+        "records": [
+            {
+                "type": "A",
+                "value": "203.0.113.10"
+            },
+            {
+                "type": "CNAME",
+                "value": "www.test.org"
+            },
+            {
+                "type": "MX",
+                "value": "mail.test.org"
+            }
+        ]
+    },
+    {
+        "name": "domain.com",
+        "records": [
+            {
+                "type": "A",
+                "value": "198.51.100.15"
+            },
+            {
+                "type": "CNAME",
+                "value": "www.domain.com"
+            }
+        ]
+    },
+    {
+        "name": "example.net",
+        "records": [
+            {
+                "type": "A",
+                "value": "192.0.2.20"
+            },
+            {
+                "type": "AAAA",
+                "value": "2001:0db8:85a3:0000:0000:8a2e:0370:7338"
+            }
+        ]
+    },
+    {
+        "name": "test.info",
+        "records": [
+            {
+                "type": "A",
+                "value": "203.0.113.20"
+            },
+            {
+                "type": "CNAME",
+                "value": "www.test.info"
+            }
+        ]
+    },
+    {
+        "name": "domain.org",
+        "records": [
+            {
+                "type": "A",
+                "value": "198.51.100.25"
+            },
+            {
+                "type": "CNAME",
+                "value": "www.domain.org"
+            }
+        ]
+    }
+]

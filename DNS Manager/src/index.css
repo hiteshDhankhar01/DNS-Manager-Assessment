@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+    background-color:  #F1F1F1;
+} */
+
+
+/* /@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    bg-gradient-to-t background-image: linear-gradient(to top, var(--tw-gradient-stops));
+} */

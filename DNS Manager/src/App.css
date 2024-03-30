@@ -1,0 +1,14 @@
+/* Add CSS transitions for list items */
+.record {
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* CSS class for the entering animation */
+.record-enter {
+    opacity: 0;
+}
+
+/* CSS class for the entered state */
+.record-enter-active {
+    opacity: 1;
+}
